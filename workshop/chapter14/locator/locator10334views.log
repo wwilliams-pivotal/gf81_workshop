@@ -1,0 +1,88 @@
+
+[info 2015/04/05 20:30:10.504 EDT <main> tid=0x1] Log opened with new distributed system connection.  View(creator=localhost(locator1:81394:locator)<v0>:19270, viewId=0, [localhost(locator1:81394:locator)<v0>:19270])
+
+[info 2015/04/05 20:30:12.332 EDT <DM-MemberEventInvoker> tid=0x1e] A new member joined: localhost(server1:81395)<v1>:40781.  View(creator=localhost(locator1:81394:locator)<v0>:19270, viewId=1, [localhost(locator1:81394:locator)<v0>:19270, localhost(server1:81395)<v1>:40781])
+
+[info 2015/04/05 20:30:16.731 EDT <DM-MemberEventInvoker> tid=0x1e] A new member joined: localhost(server2:81396)<v4>:36956.  View(creator=localhost(locator1:81394:locator)<v0>:19270, viewId=4, [localhost(locator1:81394:locator)<v0>:19270, localhost(server2:81396)<v4>:36956])
+
+[info 2015/04/05 20:32:46.910 EDT <main> tid=0x1] Log opened with new distributed system connection.  View(creator=localhost(locator1:81440:locator)<v0>:50465, viewId=0, [localhost(locator1:81440:locator)<v0>:50465])
+
+[info 2015/04/05 20:32:48.938 EDT <DM-MemberEventInvoker> tid=0x1e] A new member joined: localhost(server2:81441)<v1>:34307.  View(creator=localhost(locator1:81440:locator)<v0>:50465, viewId=1, [localhost(locator1:81440:locator)<v0>:50465, localhost(server2:81441)<v1>:34307])
+
+[info 2015/04/05 20:32:50.019 EDT <Pooled High Priority Message Processor 1> tid=0x7a] server summary: 1 cache servers with 0 client connections/current cache servers : localhost(server2:81441)<v1>:34307 
+
+[info 2015/04/05 20:57:23.610 EDT <DM-MemberEventInvoker> tid=0x1e] A new member joined: localhost(server3:81837)<v2>:30298.  View(creator=localhost(locator1:81440:locator)<v0>:50465, viewId=2, [localhost(locator1:81440:locator)<v0>:50465, localhost(server2:81441)<v1>:34307, localhost(server3:81837)<v2>:30298])
+
+[info 2015/04/05 20:57:24.747 EDT <Pooled High Priority Message Processor 1> tid=0x7a] server summary: 2 cache servers with 0 client connections/current cache servers : localhost(server2:81441)<v1>:34307 localhost(server3:81837)<v2>:30298 
+
+[info 2015/04/05 21:02:30.976 EDT <main> tid=0x1] Log opened with new distributed system connection.  View(creator=localhost(locator1:81890:locator)<v0>:34667, viewId=0, [localhost(locator1:81890:locator)<v0>:34667])
+
+[info 2015/04/05 21:15:50.328 EDT <main> tid=0x1] Log opened with new distributed system connection.  View(creator=localhost(locator1:82039:locator)<v0>:23509, viewId=0, [localhost(locator1:82039:locator)<v0>:23509])
+
+[info 2015/04/05 21:15:52.369 EDT <DM-MemberEventInvoker> tid=0x1e] A new member joined: localhost(server1:82040)<v1>:37477.  View(creator=localhost(locator1:82039:locator)<v0>:23509, viewId=1, [localhost(locator1:82039:locator)<v0>:23509, localhost(server1:82040)<v1>:37477])
+
+[info 2015/04/05 21:15:53.438 EDT <Pooled High Priority Message Processor 1> tid=0x7a] server summary: 1 cache servers with 0 client connections/current cache servers : localhost(server1:82040)<v1>:37477 
+
+[info 2015/04/05 21:15:56.794 EDT <DM-MemberEventInvoker> tid=0x1e] A new member joined: localhost(server2:82041)<v2>:59011.  View(creator=localhost(locator1:82039:locator)<v0>:23509, viewId=2, [localhost(locator1:82039:locator)<v0>:23509, localhost(server1:82040)<v1>:37477, localhost(server2:82041)<v2>:59011])
+
+[info 2015/04/05 21:15:57.884 EDT <Pooled High Priority Message Processor 2> tid=0x7f] server summary: 2 cache servers with 0 client connections/current cache servers : localhost(server1:82040)<v1>:37477 localhost(server2:82041)<v2>:59011 
+
+[info 2015/04/05 21:18:28.457 EDT <DM-MemberEventInvoker> tid=0x1e] A new member joined: localhost(server3:82071)<v3>:3339.  View(creator=localhost(locator1:82039:locator)<v0>:23509, viewId=3, [localhost(locator1:82039:locator)<v0>:23509, localhost(server1:82040)<v1>:37477, localhost(server2:82041)<v2>:59011, localhost(server3:82071)<v3>:3339])
+
+[info 2015/04/05 21:18:29.581 EDT <Pooled High Priority Message Processor 2> tid=0x7f] server summary: 3 cache servers with 0 client connections/current cache servers : localhost(server1:82040)<v1>:37477 localhost(server2:82041)<v2>:59011 localhost(server3:82071)<v3>:3339 
+
+[info 2015/04/05 21:27:34.027 EDT <DM-MemberEventInvoker> tid=0x1e] A new member joined: localhost(82099)<v4>:44743.  View(creator=localhost(locator1:82039:locator)<v0>:23509, viewId=4, [localhost(locator1:82039:locator)<v0>:23509, localhost(server1:82040)<v1>:37477, localhost(server2:82041)<v2>:59011, localhost(server3:82071)<v3>:3339, localhost(82099)<v4>:44743])
+
+[info 2015/04/05 21:27:35.148 EDT <Pooled High Priority Message Processor 1> tid=0x7a] server summary: 4 cache servers with 0 client connections/current cache servers : localhost(82099)<v4>:44743 localhost(server1:82040)<v1>:37477 localhost(server2:82041)<v2>:59011 localhost(server3:82071)<v3>:3339 
+
+[info 2015/04/05 21:32:33.910 EDT <DM-MemberEventInvoker> tid=0x1e] A new member joined: localhost(82221)<v6>:21272.  View(creator=localhost(locator1:82039:locator)<v0>:23509, viewId=6, [localhost(locator1:82039:locator)<v0>:23509, localhost(server1:82040)<v1>:37477, localhost(server2:82041)<v2>:59011, localhost(server3:82071)<v3>:3339, localhost(82221)<v6>:21272])
+
+[info 2015/04/05 21:32:35.047 EDT <Pooled High Priority Message Processor 1> tid=0x7a] server summary: 4 cache servers with 0 client connections/current cache servers : localhost(82221)<v6>:21272 localhost(server1:82040)<v1>:37477 localhost(server2:82041)<v2>:59011 localhost(server3:82071)<v3>:3339 
+
+[info 2015/04/05 21:42:05.486 EDT <DM-MemberEventInvoker> tid=0x1e] A new member joined: localhost(82228)<v9>:10512.  View(creator=localhost(locator1:82039:locator)<v0>:23509, viewId=9, [localhost(locator1:82039:locator)<v0>:23509, localhost(server1:82040)<v1>:37477, localhost(server2:82041)<v2>:59011, localhost(82228)<v9>:10512])
+
+[info 2015/04/05 21:42:06.670 EDT <Pooled High Priority Message Processor 2> tid=0x7f] server summary: 3 cache servers with 0 client connections/current cache servers : localhost(82228)<v9>:10512 localhost(server1:82040)<v1>:37477 localhost(server2:82041)<v2>:59011 
+
+[info 2015/04/05 21:42:50.038 EDT <DM-MemberEventInvoker> tid=0x1e] A new member joined: localhost(server3:82239)<v11>:59100.  View(creator=localhost(locator1:82039:locator)<v0>:23509, viewId=11, [localhost(locator1:82039:locator)<v0>:23509, localhost(server1:82040)<v1>:37477, localhost(server2:82041)<v2>:59011, localhost(server3:82239)<v11>:59100])
+
+[info 2015/04/05 21:42:51.148 EDT <Pooled High Priority Message Processor 2> tid=0x7f] server summary: 3 cache servers with 0 client connections/current cache servers : localhost(server1:82040)<v1>:37477 localhost(server2:82041)<v2>:59011 localhost(server3:82239)<v11>:59100 
+
+[info 2015/04/05 21:42:59.211 EDT <DM-MemberEventInvoker> tid=0x1e] A new member joined: localhost(82240)<v12>:38774.  View(creator=localhost(locator1:82039:locator)<v0>:23509, viewId=12, [localhost(locator1:82039:locator)<v0>:23509, localhost(server1:82040)<v1>:37477, localhost(server2:82041)<v2>:59011, localhost(server3:82239)<v11>:59100, localhost(82240)<v12>:38774])
+
+[info 2015/04/05 21:43:00.353 EDT <Pooled High Priority Message Processor 1> tid=0x7a] server summary: 4 cache servers with 0 client connections/current cache servers : localhost(82240)<v12>:38774 localhost(server1:82040)<v1>:37477 localhost(server2:82041)<v2>:59011 localhost(server3:82239)<v11>:59100 
+
+[info 2015/04/05 21:43:43.931 EDT <DM-MemberEventInvoker> tid=0x1e] A new member joined: localhost(server3:82247)<v15>:49043.  View(creator=localhost(locator1:82039:locator)<v0>:23509, viewId=15, [localhost(locator1:82039:locator)<v0>:23509, localhost(server1:82040)<v1>:37477, localhost(server2:82041)<v2>:59011, localhost(server3:82247)<v15>:49043])
+
+[info 2015/04/05 21:43:45.053 EDT <Pooled High Priority Message Processor 2> tid=0x7f] server summary: 3 cache servers with 0 client connections/current cache servers : localhost(server1:82040)<v1>:37477 localhost(server2:82041)<v2>:59011 localhost(server3:82247)<v15>:49043 
+
+[info 2015/04/05 21:43:58.417 EDT <DM-MemberEventInvoker> tid=0x1e] A new member joined: localhost(82248)<v16>:53714.  View(creator=localhost(locator1:82039:locator)<v0>:23509, viewId=16, [localhost(locator1:82039:locator)<v0>:23509, localhost(server1:82040)<v1>:37477, localhost(server2:82041)<v2>:59011, localhost(server3:82247)<v15>:49043, localhost(82248)<v16>:53714])
+
+[info 2015/04/05 21:43:59.532 EDT <Pooled High Priority Message Processor 4> tid=0xcf] server summary: 4 cache servers with 0 client connections/current cache servers : localhost(82248)<v16>:53714 localhost(server1:82040)<v1>:37477 localhost(server2:82041)<v2>:59011 localhost(server3:82247)<v15>:49043 
+
+[info 2015/04/05 21:46:09.122 EDT <DM-MemberEventInvoker> tid=0x1e] A new member joined: localhost(82259)<v19>:10241.  View(creator=localhost(locator1:82039:locator)<v0>:23509, viewId=19, [localhost(locator1:82039:locator)<v0>:23509, localhost(server1:82040)<v1>:37477, localhost(server2:82041)<v2>:59011, localhost(82259)<v19>:10241])
+
+[info 2015/04/05 21:46:10.262 EDT <Pooled High Priority Message Processor 4> tid=0xcf] server summary: 3 cache servers with 0 client connections/current cache servers : localhost(82259)<v19>:10241 localhost(server1:82040)<v1>:37477 localhost(server2:82041)<v2>:59011 
+
+[info 2015/04/05 21:48:13.490 EDT <DM-MemberEventInvoker> tid=0x1e] A new member joined: localhost(server3:82266)<v21>:24100.  View(creator=localhost(locator1:82039:locator)<v0>:23509, viewId=21, [localhost(locator1:82039:locator)<v0>:23509, localhost(server1:82040)<v1>:37477, localhost(server2:82041)<v2>:59011, localhost(server3:82266)<v21>:24100])
+
+[info 2015/04/05 21:48:14.625 EDT <Pooled High Priority Message Processor 4> tid=0xcf] server summary: 3 cache servers with 0 client connections/current cache servers : localhost(server1:82040)<v1>:37477 localhost(server2:82041)<v2>:59011 localhost(server3:82266)<v21>:24100 
+
+[info 2015/04/05 21:48:22.206 EDT <DM-MemberEventInvoker> tid=0x1e] A new member joined: localhost(82267)<v22>:56776.  View(creator=localhost(locator1:82039:locator)<v0>:23509, viewId=22, [localhost(locator1:82039:locator)<v0>:23509, localhost(server1:82040)<v1>:37477, localhost(server2:82041)<v2>:59011, localhost(server3:82266)<v21>:24100, localhost(82267)<v22>:56776])
+
+[info 2015/04/05 21:48:23.376 EDT <Pooled High Priority Message Processor 3> tid=0x9d] server summary: 4 cache servers with 0 client connections/current cache servers : localhost(82267)<v22>:56776 localhost(server1:82040)<v1>:37477 localhost(server2:82041)<v2>:59011 localhost(server3:82266)<v21>:24100 
+
+[info 2015/04/05 21:51:40.165 EDT <DM-MemberEventInvoker> tid=0x1e] A new member joined: localhost(82335)<v25>:58879.  View(creator=localhost(locator1:82039:locator)<v0>:23509, viewId=25, [localhost(locator1:82039:locator)<v0>:23509, localhost(server1:82040)<v1>:37477, localhost(server2:82041)<v2>:59011, localhost(82335)<v25>:58879])
+
+[info 2015/04/05 21:51:41.322 EDT <Pooled High Priority Message Processor 3> tid=0x9d] server summary: 3 cache servers with 0 client connections/current cache servers : localhost(82335)<v25>:58879 localhost(server1:82040)<v1>:37477 localhost(server2:82041)<v2>:59011 
+
+[info 2015/04/05 21:52:16.907 EDT <DM-MemberEventInvoker> tid=0x1e] A new member joined: localhost(server3:82339)<v27>:33260.  View(creator=localhost(locator1:82039:locator)<v0>:23509, viewId=27, [localhost(locator1:82039:locator)<v0>:23509, localhost(server1:82040)<v1>:37477, localhost(server2:82041)<v2>:59011, localhost(server3:82339)<v27>:33260])
+
+[info 2015/04/05 21:52:17.983 EDT <Pooled High Priority Message Processor 3> tid=0x9d] server summary: 3 cache servers with 0 client connections/current cache servers : localhost(server1:82040)<v1>:37477 localhost(server2:82041)<v2>:59011 localhost(server3:82339)<v27>:33260 
+
+[info 2015/04/05 21:52:37.537 EDT <DM-MemberEventInvoker> tid=0x1e] A new member joined: localhost(82340)<v28>:9070.  View(creator=localhost(locator1:82039:locator)<v0>:23509, viewId=28, [localhost(locator1:82039:locator)<v0>:23509, localhost(server1:82040)<v1>:37477, localhost(server2:82041)<v2>:59011, localhost(server3:82339)<v27>:33260, localhost(82340)<v28>:9070])
+
+[info 2015/04/05 21:52:38.668 EDT <Pooled High Priority Message Processor 3> tid=0x9d] server summary: 4 cache servers with 0 client connections/current cache servers : localhost(82340)<v28>:9070 localhost(server1:82040)<v1>:37477 localhost(server2:82041)<v2>:59011 localhost(server3:82339)<v27>:33260 
+
+[info 2015/04/05 21:52:57.638 EDT <DM-MemberEventInvoker> tid=0x1e] A new member joined: localhost(82342)<v30>:42741.  View(creator=localhost(locator1:82039:locator)<v0>:23509, viewId=30, [localhost(locator1:82039:locator)<v0>:23509, localhost(server1:82040)<v1>:37477, localhost(server2:82041)<v2>:59011, localhost(server3:82339)<v27>:33260, localhost(82342)<v30>:42741])
+
+[info 2015/04/05 21:52:58.777 EDT <Pooled High Priority Message Processor 4> tid=0xcf] server summary: 4 cache servers with 0 client connections/current cache servers : localhost(82342)<v30>:42741 localhost(server1:82040)<v1>:37477 localhost(server2:82041)<v2>:59011 localhost(server3:82339)<v27>:33260 

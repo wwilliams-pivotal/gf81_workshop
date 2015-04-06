@@ -1,0 +1,689 @@
+
+[info 2015/04/05 21:42:49.678 EDT server3 <main> tid=0x1] Renamed old log file to "server3-02-01.log".
+
+[info 2015/04/05 21:42:49.685 EDT server3 <main> tid=0x1] Startup Configuration:
+   ### GemFire Properties defined with system property ###
+  cache-xml-file=/Users/wwilliams/gf81/staging/workshop/chapter14/config/cache.xml
+  locators=localhost[10334]
+  use-cluster-configuration=true
+  ### GemFire Properties defined with api ###
+  name=server3
+  ### GemFire Properties defined with file:/Users/wwilliams/gf81/staging/workshop/chapter14/config/gemfire.properties ###
+  deploy-working-dir=/Users/wwilliams/gf81/workshop/deploy
+  jmx-manager=false
+  jmx-manager-start=false
+  log-level=info
+  statistic-sampling-enabled=true
+  ### GemFire Properties defined with launcher ###
+  log-file=server3.log
+  ### GemFire Properties using default values ###
+  ack-severe-alert-threshold=0
+  ack-wait-threshold=15
+  archive-disk-space-limit=0
+  archive-file-size-limit=0
+  async-distribution-timeout=0
+  async-max-queue-size=8
+  async-queue-timeout=60000
+  bind-address=
+  cluster-configuration-dir=/Users/wwilliams/gf81/staging/workshop/chapter14/server3
+  cluster-ssl-ciphers=any
+  cluster-ssl-enabled=false
+  cluster-ssl-keystore=
+  cluster-ssl-keystore-password=
+  cluster-ssl-keystore-type=
+  cluster-ssl-protocols=any
+  cluster-ssl-require-authentication=true
+  cluster-ssl-truststore=
+  cluster-ssl-truststore-password=
+  conflate-events=server
+  conserve-sockets=true
+  delta-propagation=true
+  disable-auto-reconnect=false
+  disable-tcp=false
+  distributed-system-id=-1
+  durable-client-id=
+  durable-client-timeout=300
+  enable-cluster-configuration=true
+  enable-network-partition-detection=false
+  enable-time-statistics=false
+  enforce-unique-host=false
+  gateway-ssl-ciphers=any
+  gateway-ssl-enabled=false
+  gateway-ssl-keystore=
+  gateway-ssl-keystore-password=
+  gateway-ssl-keystore-type=
+  gateway-ssl-protocols=any
+  gateway-ssl-require-authentication=true
+  gateway-ssl-truststore=
+  gateway-ssl-truststore-password=
+  groups=
+  http-service-bind-address=
+  http-service-port=7070
+  http-service-ssl-ciphers=any
+  http-service-ssl-enabled=false
+  http-service-ssl-keystore=
+  http-service-ssl-keystore-password=
+  http-service-ssl-keystore-type=
+  http-service-ssl-protocols=any
+  http-service-ssl-require-authentication=false
+  http-service-ssl-truststore=
+  http-service-ssl-truststore-password=
+  jmx-manager-access-file=
+  jmx-manager-bind-address=
+  jmx-manager-hostname-for-clients=
+  jmx-manager-http-port=7070
+  jmx-manager-password-file=
+  jmx-manager-port=1099
+  jmx-manager-ssl=false
+  jmx-manager-ssl-ciphers=any
+  jmx-manager-ssl-enabled=false
+  jmx-manager-ssl-keystore=
+  jmx-manager-ssl-keystore-password=
+  jmx-manager-ssl-keystore-type=
+  jmx-manager-ssl-protocols=any
+  jmx-manager-ssl-require-authentication=true
+  jmx-manager-ssl-truststore=
+  jmx-manager-ssl-truststore-password=
+  jmx-manager-update-rate=2000
+  license-application-cache=
+  license-data-management=
+  license-server-timeout=10000
+  license-working-dir=
+  load-cluster-configuration-from-dir=false
+  locator-wait-time=0
+  log-disk-space-limit=0
+  log-file-size-limit=0
+  max-num-reconnect-tries=3
+  max-wait-time-reconnect=60000
+  mcast-address=239.192.81.1
+  mcast-flow-control=1048576, 0.25, 5000
+  mcast-port=0
+  mcast-recv-buffer-size=1048576
+  mcast-send-buffer-size=65535
+  mcast-ttl=32
+  member-timeout=5000
+  membership-port-range=1024-65535
+  memcached-bind-address=
+  memcached-port=0
+  memcached-protocol=ASCII
+  redundancy-zone=
+  remote-locators=
+  remove-unresponsive-client=false
+  roles=
+  security-=
+  security-client-accessor=
+  security-client-accessor-pp=
+  security-client-auth-init=
+  security-client-authenticator=
+  security-client-dhalgo=
+  security-log-file=
+  security-log-level=config
+  security-peer-auth-init=
+  security-peer-authenticator=
+  security-peer-verifymember-timeout=1000
+  server-bind-address=
+  server-ssl-ciphers=any
+  server-ssl-enabled=false
+  server-ssl-keystore=
+  server-ssl-keystore-password=
+  server-ssl-keystore-type=
+  server-ssl-protocols=any
+  server-ssl-require-authentication=true
+  server-ssl-truststore=
+  server-ssl-truststore-password=
+  socket-buffer-size=32768
+  socket-lease-time=60000
+  ssl-ciphers=any
+  ssl-enabled=false
+  ssl-protocols=any
+  ssl-require-authentication=true
+  start-dev-rest-api=false
+  start-locator=
+  statistic-archive-file=
+  statistic-sample-rate=1000
+  tcp-port=0
+  udp-fragment-size=60000
+  udp-recv-buffer-size=1048576
+  udp-send-buffer-size=65535
+  user-command-packages=
+  writable-working-dir=
+  
+
+[info 2015/04/05 21:42:49.703 EDT server3 <main> tid=0x1] 
+  ---------------------------------------------------------------------------
+  
+    Copyright (C) 1997-2015 Pivotal Software, Inc. All rights reserved. This
+    product is protected by U.S. and international copyright and intellectual
+    property laws. Pivotal products are covered by one or more patents listed
+    at http://www.pivotal.io/patents.  Pivotal is a registered trademark
+    of trademark of Pivotal Software, Inc. in the United States and/or other
+    jurisdictions.  All other marks and names mentioned herein may be
+    trademarks of their respective companies.
+  
+  ---------------------------------------------------------------------------
+  Java version:   8.1.0 build 50625 01/16/2015 16:21:01 PST javac 1.7.0_72
+  Native version: native code unavailable
+  Source revision: 50625
+  Source repository: gemfire/branches/cedar_dev_Oct12
+  Running on: Wes.local/192.168.1.110, 8 cpu(s), x86_64 Mac OS X 10.10.2
+  Process ID: 82239
+  User: wwilliams
+  Current dir: /Users/wwilliams/gf81/staging/workshop/chapter14/server3
+  Home dir: /Users/wwilliams
+  Command Line Parameters:
+    -DgemfirePropertyFile=/Users/wwilliams/gf81/staging/workshop/chapter14/config/gemfire.properties
+    -Dgemfire.cache-xml-file=/Users/wwilliams/gf81/staging/workshop/chapter14/config/cache.xml
+    -Dgemfire.locators=localhost[10334]
+    -Dgemfire.use-cluster-configuration=true
+    -Xms512m
+    -Xmx512m
+    -XX:OnOutOfMemoryError=kill -KILL %p
+    -Dgemfire.launcher.registerSignalHandlers=true
+    -Djava.awt.headless=true
+    -Dsun.rmi.dgc.server.gcInterval=9223372036854775806
+  Class Path:
+    /usr/local/Cellar/gemfire/8.1.0/libexec/lib/gemfire.jar
+    ../../projects/Domain/target/Domain-1.jar
+    /usr/local/Cellar/gemfire/8.1.0/libexec/lib/server-dependencies.jar
+  Library Path:
+    /Users/wwilliams/Library/Java/Extensions
+    /Library/Java/Extensions
+    /Network/Library/Java/Extensions
+    /System/Library/Java/Extensions
+    /usr/lib/java
+    .
+  System Properties:
+      awt.toolkit = sun.lwawt.macosx.LWCToolkit
+      file.encoding = UTF-8
+      file.encoding.pkg = sun.io
+      file.separator = /
+      ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+      gemfire.cache-xml-file = /Users/wwilliams/gf81/staging/workshop/chapter14/config/cache.xml
+      gemfire.launcher.registerSignalHandlers = true
+      gemfire.locators = localhost[10334]
+      gemfire.use-cluster-configuration = true
+      gemfirePropertyFile = /Users/wwilliams/gf81/staging/workshop/chapter14/config/gemfire.properties
+      gopherProxySet = false
+      http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+      java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+      java.awt.headless = true
+      java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+      java.class.version = 52.0
+      java.endorsed.dirs = /Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/endorsed
+      java.ext.dirs = /Users/wwilliams/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+      java.home = /Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre
+      java.io.tmpdir = /var/folders/yx/2wz1lh4n7bg5r19r8rmcz0f80000gp/T/
+      java.runtime.name = Java(TM) SE Runtime Environment
+      java.runtime.version = 1.8.0_40-b26
+      java.specification.name = Java Platform API Specification
+      java.specification.vendor = Oracle Corporation
+      java.specification.version = 1.8
+      java.vendor = Oracle Corporation
+      java.vendor.url = http://java.oracle.com/
+      java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+      java.version = 1.8.0_40
+      java.vm.info = mixed mode
+      java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+      java.vm.specification.name = Java Virtual Machine Specification
+      java.vm.specification.vendor = Oracle Corporation
+      java.vm.specification.version = 1.8
+      java.vm.vendor = Oracle Corporation
+      java.vm.version = 25.40-b25
+      jna.platform.library.path = /usr/lib:/usr/lib
+      jnidispatch.path = /var/folders/yx/2wz1lh4n7bg5r19r8rmcz0f80000gp/T/jna--1504164601/jna6565910049751254206.tmp
+      line.separator = 
+  
+      log4j.configurationFile = jar:file:/usr/local/Cellar/gemfire/8.1.0/libexec/lib/gemfire.jar!/com/gemstone/gemfire/internal/logging/log4j/log4j2-default.xml
+      os.version = 10.10.2
+      p2p.useSSL = false
+      path.separator = :
+      socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+      sun.arch.data.model = 64
+      sun.boot.class.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/classes
+      sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib
+      sun.cpu.endian = little
+      sun.cpu.isalist = 
+      sun.io.unicode.encoding = UnicodeBig
+      sun.java.command = com.gemstone.gemfire.distributed.ServerLauncher start server3 --redirect-output --server-port=40406
+      sun.java.launcher = SUN_STANDARD
+      sun.jnu.encoding = UTF-8
+      sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+      sun.nio.ch.bugLevel = 
+      sun.os.patch.level = unknown
+      sun.rmi.dgc.server.gcInterval = 9223372036854775806
+      user.country = US
+      user.country.format = CA
+      user.language = en
+      user.timezone = America/Toronto
+  ---------------------------------------------------------------------------
+  
+
+[info 2015/04/05 21:42:49.705 EDT server3 <main> tid=0x1] Startup Configuration:
+   ### GemFire Properties defined with system property ###
+  cache-xml-file=/Users/wwilliams/gf81/staging/workshop/chapter14/config/cache.xml
+  locators=localhost[10334]
+  use-cluster-configuration=true
+  ### GemFire Properties defined with api ###
+  name=server3
+  ### GemFire Properties defined with file:/Users/wwilliams/gf81/staging/workshop/chapter14/config/gemfire.properties ###
+  deploy-working-dir=/Users/wwilliams/gf81/workshop/deploy
+  jmx-manager=false
+  jmx-manager-start=false
+  log-level=info
+  statistic-sampling-enabled=true
+  ### GemFire Properties defined with launcher ###
+  log-file=server3.log
+  ### GemFire Properties using default values ###
+  ack-severe-alert-threshold=0
+  ack-wait-threshold=15
+  archive-disk-space-limit=0
+  archive-file-size-limit=0
+  async-distribution-timeout=0
+  async-max-queue-size=8
+  async-queue-timeout=60000
+  bind-address=
+  cluster-configuration-dir=/Users/wwilliams/gf81/staging/workshop/chapter14/server3
+  cluster-ssl-ciphers=any
+  cluster-ssl-enabled=false
+  cluster-ssl-keystore=
+  cluster-ssl-keystore-password=
+  cluster-ssl-keystore-type=
+  cluster-ssl-protocols=any
+  cluster-ssl-require-authentication=true
+  cluster-ssl-truststore=
+  cluster-ssl-truststore-password=
+  conflate-events=server
+  conserve-sockets=true
+  delta-propagation=true
+  disable-auto-reconnect=false
+  disable-tcp=false
+  distributed-system-id=-1
+  durable-client-id=
+  durable-client-timeout=300
+  enable-cluster-configuration=true
+  enable-network-partition-detection=false
+  enable-time-statistics=false
+  enforce-unique-host=false
+  gateway-ssl-ciphers=any
+  gateway-ssl-enabled=false
+  gateway-ssl-keystore=
+  gateway-ssl-keystore-password=
+  gateway-ssl-keystore-type=
+  gateway-ssl-protocols=any
+  gateway-ssl-require-authentication=true
+  gateway-ssl-truststore=
+  gateway-ssl-truststore-password=
+  groups=
+  http-service-bind-address=
+  http-service-port=7070
+  http-service-ssl-ciphers=any
+  http-service-ssl-enabled=false
+  http-service-ssl-keystore=
+  http-service-ssl-keystore-password=
+  http-service-ssl-keystore-type=
+  http-service-ssl-protocols=any
+  http-service-ssl-require-authentication=false
+  http-service-ssl-truststore=
+  http-service-ssl-truststore-password=
+  jmx-manager-access-file=
+  jmx-manager-bind-address=
+  jmx-manager-hostname-for-clients=
+  jmx-manager-http-port=7070
+  jmx-manager-password-file=
+  jmx-manager-port=1099
+  jmx-manager-ssl=false
+  jmx-manager-ssl-ciphers=any
+  jmx-manager-ssl-enabled=false
+  jmx-manager-ssl-keystore=
+  jmx-manager-ssl-keystore-password=
+  jmx-manager-ssl-keystore-type=
+  jmx-manager-ssl-protocols=any
+  jmx-manager-ssl-require-authentication=true
+  jmx-manager-ssl-truststore=
+  jmx-manager-ssl-truststore-password=
+  jmx-manager-update-rate=2000
+  license-application-cache=
+  license-data-management=
+  license-server-timeout=10000
+  license-working-dir=
+  load-cluster-configuration-from-dir=false
+  locator-wait-time=0
+  log-disk-space-limit=0
+  log-file-size-limit=0
+  max-num-reconnect-tries=3
+  max-wait-time-reconnect=60000
+  mcast-address=239.192.81.1
+  mcast-flow-control=1048576, 0.25, 5000
+  mcast-port=0
+  mcast-recv-buffer-size=1048576
+  mcast-send-buffer-size=65535
+  mcast-ttl=32
+  member-timeout=5000
+  membership-port-range=1024-65535
+  memcached-bind-address=
+  memcached-port=0
+  memcached-protocol=ASCII
+  redundancy-zone=
+  remote-locators=
+  remove-unresponsive-client=false
+  roles=
+  security-=
+  security-client-accessor=
+  security-client-accessor-pp=
+  security-client-auth-init=
+  security-client-authenticator=
+  security-client-dhalgo=
+  security-log-file=
+  security-log-level=config
+  security-peer-auth-init=
+  security-peer-authenticator=
+  security-peer-verifymember-timeout=1000
+  server-bind-address=
+  server-ssl-ciphers=any
+  server-ssl-enabled=false
+  server-ssl-keystore=
+  server-ssl-keystore-password=
+  server-ssl-keystore-type=
+  server-ssl-protocols=any
+  server-ssl-require-authentication=true
+  server-ssl-truststore=
+  server-ssl-truststore-password=
+  socket-buffer-size=32768
+  socket-lease-time=60000
+  ssl-ciphers=any
+  ssl-enabled=false
+  ssl-protocols=any
+  ssl-require-authentication=true
+  start-dev-rest-api=false
+  start-locator=
+  statistic-archive-file=
+  statistic-sample-rate=1000
+  tcp-port=0
+  udp-fragment-size=60000
+  udp-recv-buffer-size=1048576
+  udp-send-buffer-size=65535
+  user-command-packages=
+  writable-working-dir=
+  
+
+[info 2015/04/05 21:42:49.707 EDT server3 <main> tid=0x1] Defaulting license-working-dir to current working directory "/Users/wwilliams/gf81/staging/workshop/chapter14/server3".
+
+[info 2015/04/05 21:42:49.708 EDT server3 <main> tid=0x1] Licensing required 1 milliseconds.
+
+[info 2015/04/05 21:42:49.723 EDT server3 <main> tid=0x1] Serial Queue info : THROTTLE_PERCENT: 0.75 SERIAL_QUEUE_BYTE_LIMIT :41943040 SERIAL_QUEUE_THROTTLE :31457280 TOTAL_SERIAL_QUEUE_BYTE_LIMIT :83886080 TOTAL_SERIAL_QUEUE_THROTTLE :31457280 SERIAL_QUEUE_SIZE_LIMIT :20000 SERIAL_QUEUE_SIZE_THROTTLE :15000
+
+[info 2015/04/05 21:42:49.749 EDT server3 <main> tid=0x1] GemFire P2P Listener started on  tcp:///192.168.1.110:55341
+
+[info 2015/04/05 21:42:49.874 EDT server3 <PingSender> tid=0x24] locator localhost(null)<v0>:10334 member address is localhost(locator1:82039:locator)<v0>:23509
+
+[info 2015/04/05 21:42:49.875 EDT server3 <main> tid=0x1] Attempting to join distributed system whose membership coordinator is localhost(locator1:82039:locator)<v0>:23509 using membership ID localhost(server3:82239):59100
+
+[info 2015/04/05 21:42:50.039 EDT server3 <main> tid=0x1] Membership: lead member is now localhost(server1:82040)<v1>:37477
+
+[info 2015/04/05 21:42:50.043 EDT server3 <FD_SOCK Ping thread> tid=0x29] GemFire failure detection is now monitoring localhost(locator1:82039:locator)<v0>:23509
+
+[info 2015/04/05 21:42:50.044 EDT server3 <main> tid=0x1] Connected to Jgroups channel (took  290  ms)
+
+[info 2015/04/05 21:42:50.044 EDT server3 <main> tid=0x1] Entered into membership with ID localhost(server3:82239)<v11>:59100.
+
+[info 2015/04/05 21:42:50.045 EDT server3 <main> tid=0x1] Starting DistributionManager localhost(server3:82239)<v11>:59100.  (took 313/ ms)
+
+[info 2015/04/05 21:42:50.045 EDT server3 <main> tid=0x1] Initial (membershipManager) view =  [localhost(locator1:82039:locator)<v0>:23509, localhost(server1:82040)<v1>:37477{lead}, localhost(server2:82041)<v2>:59011, localhost(server3:82239)<v11>:59100]
+
+[info 2015/04/05 21:42:50.046 EDT server3 <main> tid=0x1] Admitting member <localhost(locator1:82039:locator)<v0>:23509>. Now there are 1 non-admin member(s).
+
+[info 2015/04/05 21:42:50.046 EDT server3 <main> tid=0x1] Admitting member <localhost(server1:82040)<v1>:37477>. Now there are 2 non-admin member(s).
+
+[info 2015/04/05 21:42:50.046 EDT server3 <main> tid=0x1] Admitting member <localhost(server2:82041)<v2>:59011>. Now there are 3 non-admin member(s).
+
+[info 2015/04/05 21:42:50.046 EDT server3 <main> tid=0x1] Admitting member <localhost(server3:82239)<v11>:59100>. Now there are 4 non-admin member(s).
+
+[info 2015/04/05 21:42:50.048 EDT server3 <main> tid=0x1] Membership: Finished view processing viewID =  11
+
+[info 2015/04/05 21:42:50.065 EDT server3 <P2P message reader for localhost(locator1:82039:locator)<v0>:23509 shared unordered uid=7 port=59353> tid=0x2a] Member localhost(locator1:82039:locator)<v0>:23509 is equivalent or in the same redundancy zone.
+
+[info 2015/04/05 21:42:50.066 EDT server3 <P2P message reader for localhost(server2:82041)<v2>:59011 shared unordered uid=13 port=59357> tid=0x33] Member localhost(server2:82041)<v2>:59011 is equivalent or in the same redundancy zone.
+
+[info 2015/04/05 21:42:50.066 EDT server3 <P2P message reader for localhost(server1:82040)<v1>:37477 shared unordered uid=13 port=59358> tid=0x34] Member localhost(server1:82040)<v1>:37477 is equivalent or in the same redundancy zone.
+
+[info 2015/04/05 21:42:50.067 EDT server3 <main> tid=0x1] DistributionManager localhost(server3:82239)<v11>:59100 started on localhost[10334]. There were 3 other DMs. others: [localhost(server2:82041)<v2>:59011, localhost(locator1:82039:locator)<v0>:23509, localhost(server1:82040)<v1>:37477]  (VERBOSE, took 354 ms) 
+
+[info 2015/04/05 21:42:50.074 EDT server3 <Thread-5 StatSampler> tid=0x35] Disabling statistic archival.
+
+[info 2015/04/05 21:42:50.171 EDT server3 <main> tid=0x1] Initializing region _monitoringRegion_192.168.1.110<v11>59100
+
+[info 2015/04/05 21:42:50.178 EDT server3 <main> tid=0x1] Region _monitoringRegion_192.168.1.110<v11>59100 requesting initial image from localhost(locator1:82039:locator)<v0>:23509
+
+[info 2015/04/05 21:42:50.181 EDT server3 <main> tid=0x1] _monitoringRegion_192.168.1.110<v11>59100 is done getting image from localhost(locator1:82039:locator)<v0>:23509. isDeltaGII is false
+
+[info 2015/04/05 21:42:50.181 EDT server3 <main> tid=0x1] Initialization of region _monitoringRegion_192.168.1.110<v11>59100 completed
+
+[info 2015/04/05 21:42:50.897 EDT server3 <main> tid=0x1] Received cluster configuration from the locator
+
+[info 2015/04/05 21:42:50.897 EDT server3 <main> tid=0x1] Received an empty shared configuration
+
+[info 2015/04/05 21:42:50.964 EDT server3 <main> tid=0x1] Overriding MemoryPoolMXBean heap threshold bytes 0 on pool PS Old Gen with 268,566,528
+
+[info 2015/04/05 21:42:50.965 EDT server3 <main> tid=0x1] Overriding MemoryPoolMXBean heap threshold bytes 0 on pool PS Old Gen with 268,566,528
+
+[info 2015/04/05 21:42:50.969 EDT server3 <main> tid=0x1] Initializing region PdxTypes
+
+[info 2015/04/05 21:42:50.972 EDT server3 <main> tid=0x1] Region PdxTypes requesting initial image from localhost(server1:82040)<v1>:37477
+
+[info 2015/04/05 21:42:50.978 EDT server3 <main> tid=0x1] PdxTypes is done getting image from localhost(server1:82040)<v1>:37477. isDeltaGII is false
+
+[info 2015/04/05 21:42:50.979 EDT server3 <main> tid=0x1] Initialization of region PdxTypes completed
+
+[info 2015/04/05 21:42:51.013 EDT server3 <main> tid=0x1] Created disk store DEFAULT with unique id ef8555d5acc8480a-a81fb11e2e592f29
+
+[info 2015/04/05 21:42:51.022 EDT server3 <main> tid=0x1] recovery region initialization took 1 ms
+
+[info 2015/04/05 21:42:51.038 EDT server3 <main> tid=0x1] Initializing region __PR
+
+[info 2015/04/05 21:42:51.042 EDT server3 <main> tid=0x1] Region __PR requesting initial image from localhost(server1:82040)<v1>:37477
+
+[info 2015/04/05 21:42:51.049 EDT server3 <main> tid=0x1] __PR is done getting image from localhost(server1:82040)<v1>:37477. isDeltaGII is false
+
+[info 2015/04/05 21:42:51.049 EDT server3 <main> tid=0x1] Initialization of region __PR completed
+
+[info 2015/04/05 21:42:51.066 EDT server3 <main> tid=0x1] Partitioned Region /employees is created with prId=1
+
+[info 2015/04/05 21:42:51.104 EDT server3 <main> tid=0x1] Partitioned Region /departments is created with prId=2
+
+[info 2015/04/05 21:42:51.110 EDT server3 <main> tid=0x1] Partitioned Region /people is created with prId=3
+
+[info 2015/04/05 21:42:51.122 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] Initializing region _B__employees_10
+
+[info 2015/04/05 21:42:51.126 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] Region _B__employees_10 requesting initial image from localhost(server2:82041)<v2>:59011
+
+[info 2015/04/05 21:42:51.131 EDT server3 <main> tid=0x1] Bridge server connection listener bound to address 0.0.0.0/0.0.0.0:40406 with backlog 1,000.
+
+[info 2015/04/05 21:42:51.132 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] _B__employees_10 is done getting image from localhost(server2:82041)<v2>:59011. isDeltaGII is false
+
+[info 2015/04/05 21:42:51.132 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] Initialization of region _B__employees_10 completed
+
+[info 2015/04/05 21:42:51.135 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] Initializing region _B__employees_8
+
+[info 2015/04/05 21:42:51.137 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] Region _B__employees_8 requesting initial image from localhost(server1:82040)<v1>:37477
+
+[info 2015/04/05 21:42:51.139 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] _B__employees_8 is done getting image from localhost(server1:82040)<v1>:37477. isDeltaGII is false
+
+[info 2015/04/05 21:42:51.139 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] Initialization of region _B__employees_8 completed
+
+[info 2015/04/05 21:42:51.139 EDT server3 <main> tid=0x1] ClientHealthMonitorThread maximum allowed time between pings: 60,000
+
+[info 2015/04/05 21:42:51.141 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] Initializing region _B__employees_0
+
+[info 2015/04/05 21:42:51.142 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] Region _B__employees_0 requesting initial image from localhost(server1:82040)<v1>:37477
+
+[info 2015/04/05 21:42:51.143 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] _B__employees_0 is done getting image from localhost(server1:82040)<v1>:37477. isDeltaGII is false
+
+[info 2015/04/05 21:42:51.144 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] Initialization of region _B__employees_0 completed
+
+[info 2015/04/05 21:42:51.146 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] Initializing region _B__employees_7
+
+[info 2015/04/05 21:42:51.148 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] Region _B__employees_7 requesting initial image from localhost(server2:82041)<v2>:59011
+
+[info 2015/04/05 21:42:51.149 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] _B__employees_7 is done getting image from localhost(server2:82041)<v2>:59011. isDeltaGII is false
+
+[info 2015/04/05 21:42:51.149 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] Initialization of region _B__employees_7 completed
+
+[info 2015/04/05 21:42:51.150 EDT server3 <main> tid=0x1] CacheServer Configuration:   port=40406 max-connections=800 max-threads=0 notify-by-subscription=true socket-buffer-size=32768 maximum-time-between-pings=60000 maximum-message-count=230000 message-time-to-live=180 eviction-policy=none capacity=1 overflow directory=. groups=[] loadProbe=ConnectionCountProbe loadPollInterval=5000 tcpNoDelay=true
+
+[info 2015/04/05 21:42:51.151 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] Initializing region _B__employees_5
+
+[info 2015/04/05 21:42:51.153 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] Region _B__employees_5 requesting initial image from localhost(server2:82041)<v2>:59011
+
+[info 2015/04/05 21:42:51.154 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] _B__employees_5 is done getting image from localhost(server2:82041)<v2>:59011. isDeltaGII is false
+
+[info 2015/04/05 21:42:51.154 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] Initialization of region _B__employees_5 completed
+
+[info 2015/04/05 21:42:51.156 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] Initializing region _B__employees_2
+
+[info 2015/04/05 21:42:51.158 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] Region _B__employees_2 requesting initial image from localhost(server2:82041)<v2>:59011
+
+[info 2015/04/05 21:42:51.158 EDT server3 <main> tid=0x1] Cache initialized using "file:/Users/wwilliams/gf81/staging/workshop/chapter14/config/cache.xml":
+  <?xml version="1.0"?>
+  <!DOCTYPE cache PUBLIC
+      "-//GemStone Systems, Inc.//GemFire Declarative Caching 7.0//EN"
+      "http://www.gemstone.com/dtd/cache7_0.dtd">
+  <cache>
+      
+      <pdx read-serialized="true">
+          <pdx-serializer>
+              <class-name>com.gemstone.gemfire.pdx.ReflectionBasedAutoSerializer</class-name>
+              <parameter name="classes">
+                  <string>io.pivotal.app.domain.*,io.pivotal.domain.*</string>
+              </parameter>
+          </pdx-serializer>
+      </pdx>
+      <region name="employees">
+          <region-attributes data-policy="partition">
+              <key-constraint>java.lang.String</key-constraint>
+              <value-constraint>io.pivotal.domain.Employee</value-constraint>
+              <partition-attributes redundant-copies="1" total-num-buckets="11"/>
+              <eviction-attributes>
+                  <lru-heap-percentage action="overflow-to-disk"/>
+              </eviction-attributes>
+          </region-attributes>
+      </region>
+      <region name="departments">
+          <region-attributes data-policy="partition">
+             <key-constraint>java.lang.String</key-constraint>
+             <value-constraint>io.pivotal.domain.Department</value-constraint>
+             <partition-attributes redundant-copies="1" total-num-buckets="11"/>
+             <eviction-attributes>
+                  <lru-heap-percentage action="overflow-to-disk"/>
+             </eviction-attributes>
+          </region-attributes>
+      </region>
+      
+      <region name="people">
+          <region-attributes data-policy="partition">
+              <partition-attributes redundant-copies="1" total-num-buckets="11"/>
+          </region-attributes>
+      </region>
+      
+      
+      <resource-manager critical-heap-percentage="75" eviction-heap-percentage="65"/>
+  </cache>
+
+[info 2015/04/05 21:42:51.159 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] _B__employees_2 is done getting image from localhost(server2:82041)<v2>:59011. isDeltaGII is false
+
+[info 2015/04/05 21:42:51.159 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] Initialization of region _B__employees_2 completed
+
+[info 2015/04/05 21:42:51.161 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] Initializing region _B__employees_6
+
+[info 2015/04/05 21:42:51.163 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] Region _B__employees_6 requesting initial image from localhost(server1:82040)<v1>:37477
+
+[info 2015/04/05 21:42:51.164 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] _B__employees_6 is done getting image from localhost(server1:82040)<v1>:37477. isDeltaGII is false
+
+[info 2015/04/05 21:42:51.164 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] Initialization of region _B__employees_6 completed
+
+[info 2015/04/05 21:42:51.251 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] Initializing region _B__departments_5
+
+[info 2015/04/05 21:42:51.253 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] Region _B__departments_5 requesting initial image from localhost(server1:82040)<v1>:37477
+
+[info 2015/04/05 21:42:51.254 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] _B__departments_5 is done getting image from localhost(server1:82040)<v1>:37477. isDeltaGII is false
+
+[info 2015/04/05 21:42:51.254 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] Initialization of region _B__departments_5 completed
+
+[info 2015/04/05 21:42:51.256 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] Initializing region _B__departments_10
+
+[info 2015/04/05 21:42:51.259 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] Region _B__departments_10 requesting initial image from localhost(server2:82041)<v2>:59011
+
+[info 2015/04/05 21:42:51.260 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] _B__departments_10 is done getting image from localhost(server2:82041)<v2>:59011. isDeltaGII is false
+
+[info 2015/04/05 21:42:51.260 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] Initialization of region _B__departments_10 completed
+
+[info 2015/04/05 21:42:51.262 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] Initializing region _B__departments_1
+
+[info 2015/04/05 21:42:51.264 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] Region _B__departments_1 requesting initial image from localhost(server2:82041)<v2>:59011
+
+[info 2015/04/05 21:42:51.265 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] _B__departments_1 is done getting image from localhost(server2:82041)<v2>:59011. isDeltaGII is false
+
+[info 2015/04/05 21:42:51.265 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] Initialization of region _B__departments_1 completed
+
+[info 2015/04/05 21:42:51.271 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] Initializing region _B__departments_4
+
+[info 2015/04/05 21:42:51.273 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] Region _B__departments_4 requesting initial image from localhost(server1:82040)<v1>:37477
+
+[info 2015/04/05 21:42:51.274 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] _B__departments_4 is done getting image from localhost(server1:82040)<v1>:37477. isDeltaGII is false
+
+[info 2015/04/05 21:42:51.274 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] Initialization of region _B__departments_4 completed
+
+[info 2015/04/05 21:42:51.279 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] Initializing region _B__departments_7
+
+[info 2015/04/05 21:42:51.281 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] Region _B__departments_7 requesting initial image from localhost(server1:82040)<v1>:37477
+
+[info 2015/04/05 21:42:51.281 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] _B__departments_7 is done getting image from localhost(server1:82040)<v1>:37477. isDeltaGII is false
+
+[info 2015/04/05 21:42:51.281 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] Initialization of region _B__departments_7 completed
+
+[info 2015/04/05 21:42:51.283 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] Initializing region _B__departments_9
+
+[info 2015/04/05 21:42:51.284 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] Region _B__departments_9 requesting initial image from localhost(server1:82040)<v1>:37477
+
+[info 2015/04/05 21:42:51.285 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] _B__departments_9 is done getting image from localhost(server1:82040)<v1>:37477. isDeltaGII is false
+
+[info 2015/04/05 21:42:51.285 EDT server3 <ResourceManagerRecoveryThread> tid=0x48] Initialization of region _B__departments_9 completed
+
+[info 2015/04/05 21:42:59.206 EDT server3 <UDP ucast receiver> tid=0x20] Membership: received new view  [localhost(locator1:82039:locator)<v0>:23509|12] [localhost(locator1:82039:locator)<v0>:23509/10100, localhost(server1:82040)<v1>:37477/52713, localhost(server2:82041)<v2>:59011/44914, localhost(server3:82239)<v11>:59100/55341, localhost(82240)<v12>:38774/1616]
+
+[info 2015/04/05 21:42:59.209 EDT server3 <View Message Processor> tid=0x52] Membership: Processing addition < localhost(82240)<v12>:38774 >
+
+[info 2015/04/05 21:42:59.209 EDT server3 <FD_SOCK Ping thread> tid=0x29] GemFire failure detection is now monitoring localhost(82240)<v12>:38774
+
+[info 2015/04/05 21:42:59.210 EDT server3 <View Message Processor> tid=0x52] Admitting member <localhost(82240)<v12>:38774>. Now there are 5 non-admin member(s).
+
+[info 2015/04/05 21:42:59.211 EDT server3 <View Message Processor> tid=0x52] Membership: Finished view processing viewID =  12
+
+[info 2015/04/05 21:42:59.290 EDT server3 <Pooled High Priority Message Processor 1> tid=0x2c] Member localhost(82240)<v12>:38774 is equivalent or in the same redundancy zone.
+
+[info 2015/04/05 21:43:00.431 EDT server3 <Pooled High Priority Message Processor 1> tid=0x2c] Member at localhost(82240)<v12>:38774 gracefully left the distributed cache: shutdown message received
+
+[info 2015/04/05 21:43:00.695 EDT server3 <FD_SOCK Ping thread> tid=0x29] Member localhost(82240)<v12>:38774 shut down with normal termination.
+
+[info 2015/04/05 21:43:00.696 EDT server3 <FD_SOCK Ping thread> tid=0x29] GemFire failure detection is now monitoring localhost(locator1:82039:locator)<v0>:23509
+
+[info 2015/04/05 21:43:00.696 EDT server3 <UDP ucast receiver> tid=0x20] Membership: received new view  [localhost(locator1:82039:locator)<v0>:23509|13] [localhost(locator1:82039:locator)<v0>:23509/10100, localhost(server1:82040)<v1>:37477/52713, localhost(server2:82041)<v2>:59011/44914, localhost(server3:82239)<v11>:59100/55341]
+
+[info 2015/04/05 21:43:00.699 EDT server3 <View Message Processor> tid=0x52] Membership: Processing departing member ( localhost(82240)<v12>:38774 )
+
+[info 2015/04/05 21:43:00.700 EDT server3 <View Message Processor> tid=0x52] Membership: Finished view processing viewID =  13
+
+[info 2015/04/05 21:43:31.768 EDT server3 <Thread-16> tid=0x64] GemFireCache[id = 1345401730; isClosing = true; isShutDownAll = false; closingGatewayHubsByShutdownAll = false; created = Sun Apr 05 21:42:50 EDT 2015; server = true; copyOnRead = false; lockLease = 120; lockTimeout = 60]: Now closing.
+
+[info 2015/04/05 21:43:31.768 EDT server3 <Thread-16> tid=0x64] Resetting original MemoryPoolMXBean heap threshold bytes 0 on pool PS Old Gen
+
+[info 2015/04/05 21:43:31.771 EDT server3 <Thread-16> tid=0x64] Bridge server on port 40,406 is shutting down.
+
+[info 2015/04/05 21:43:31.771 EDT server3 <Distributed system shutdown hook> tid=0xe] VM is exiting - shutting down distributed system
+
+[info 2015/04/05 21:43:31.788 EDT server3 <Thread-16> tid=0x64] Shutting down DistributionManager localhost(server3:82239)<v11>:59100. 
+
+[info 2015/04/05 21:43:31.893 EDT server3 <Thread-16> tid=0x64] Now closing distribution for localhost(server3:82239)<v11>:59100
+
+[info 2015/04/05 21:43:32.052 EDT server3 <Thread-16> tid=0x64] DistributionManager stopped in 264ms.
+
+[info 2015/04/05 21:43:32.053 EDT server3 <Thread-16> tid=0x64] Marking DistributionManager localhost(server3:82239)<v11>:59100 as closed.
