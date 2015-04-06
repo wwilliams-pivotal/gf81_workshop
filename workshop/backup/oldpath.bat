@@ -1,0 +1,1 @@
+export PATH=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/opt/X11/bin:/usr/sbin:/sbin:/Programs/springsource/groovy-2.2.1/bin:/Programs/springsource/gradle-2.0/bin:/Programs/pivotal/Pivotal_GemFire_800_b48398_Linux/bin

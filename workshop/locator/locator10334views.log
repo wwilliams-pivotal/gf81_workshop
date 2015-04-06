@@ -1,0 +1,18 @@
+
+[info 2015/03/13 21:24:41.213 EDT <main> tid=0x1] Log opened with new distributed system connection.  View(creator=localhost(locator1:10445:locator)<v0>:44657, viewId=0, [localhost(locator1:10445:locator)<v0>:44657])
+
+[info 2015/03/13 21:24:43.276 EDT <DM-MemberEventInvoker> tid=0x1c] A new member joined: 192.168.1.110(server1:10446)<v1>:13812.  View(creator=localhost(locator1:10445:locator)<v0>:44657, viewId=1, [localhost(locator1:10445:locator)<v0>:44657, 192.168.1.110(server1:10446)<v1>:13812])
+
+[info 2015/03/13 21:24:47.640 EDT <DM-MemberEventInvoker> tid=0x1c] A new member joined: 192.168.1.110(server2:10447)<v4>:17600.  View(creator=localhost(locator1:10445:locator)<v0>:44657, viewId=4, [localhost(locator1:10445:locator)<v0>:44657, 192.168.1.110(server2:10447)<v4>:17600])
+
+[info 2015/03/13 21:24:48.569 EDT <Pooled High Priority Message Processor 1> tid=0x75] server summary: 1 cache servers with 0 client connections/current cache servers : 192.168.1.110(server2:10447)<v4>:17600 
+
+[info 2015/03/14 15:45:03.534 EDT <main> tid=0x1] Log opened with new distributed system connection.  View(creator=localhost(locator1:3879:locator)<v0>:16697, viewId=0, [localhost(locator1:3879:locator)<v0>:16697])
+
+[info 2015/03/14 15:45:05.651 EDT <DM-MemberEventInvoker> tid=0x1e] A new member joined: localhost(server1:3880)<v1>:7677.  View(creator=localhost(locator1:3879:locator)<v0>:16697, viewId=1, [localhost(locator1:3879:locator)<v0>:16697, localhost(server1:3880)<v1>:7677])
+
+[info 2015/03/14 15:45:06.645 EDT <Pooled High Priority Message Processor 1> tid=0x7a] server summary: 1 cache servers with 0 client connections/current cache servers : localhost(server1:3880)<v1>:7677 
+
+[info 2015/03/14 15:45:08.491 EDT <DM-MemberEventInvoker> tid=0x1e] A new member joined: localhost(server2:3881)<v2>:37001.  View(creator=localhost(locator1:3879:locator)<v0>:16697, viewId=2, [localhost(locator1:3879:locator)<v0>:16697, localhost(server1:3880)<v1>:7677, localhost(server2:3881)<v2>:37001])
+
+[info 2015/03/14 15:45:09.494 EDT <Pooled High Priority Message Processor 1> tid=0x7a] server summary: 2 cache servers with 0 client connections/current cache servers : localhost(server1:3880)<v1>:7677 localhost(server2:3881)<v2>:37001 
