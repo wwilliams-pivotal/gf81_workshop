@@ -3,10 +3,10 @@
 export GEMFIRE_HOME=/usr/local/Cellar/gemfire/8.1.0/libexec
 export GEMFIRE=$GEMFIRE_HOME
 
-export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
+export JAVA_HOME=$(/usr/libexec/java_home -v 1.7)
 
 # Note: the above on OSX resolves to:
-#export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home
+#export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home
 
 export GF_JAVA=$JAVA_HOME/bin/java
 
