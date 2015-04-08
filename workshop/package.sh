@@ -89,3 +89,15 @@ mkdir -p chapter15/server2
 cp config/gemfire.properties chapter15/config/
 cp config/cache-persistence.xml chapter15/config/
 
+mkdir -p chapter20/DataCenter1/lib
+mkdir -p chapter20/DataCenter1/locator1
+mkdir -p chapter20/DataCenter1/server1
+mkdir -p chapter20/DataCenter1/server2
+mkdir -p chapter20/DataCenter2/lib
+mkdir -p chapter20/DataCenter2/locator2
+mkdir -p chapter20/DataCenter2/server3
+mkdir -p chapter20/DataCenter2/server4
+cp
+
+
+

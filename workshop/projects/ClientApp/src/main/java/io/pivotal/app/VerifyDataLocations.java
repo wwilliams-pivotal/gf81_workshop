@@ -30,7 +30,7 @@ public class VerifyDataLocations
         /*
          * Java 1.7 style
          */
-        /*
+        
         for (Map.Entry<String, Employee> entry : exampleRegion.entrySet()) {
             DistributedMember member =
                     PartitionRegionHelper.getPrimaryMemberForKey(exampleRegion, (String) entry.getKey());
@@ -38,18 +38,18 @@ public class VerifyDataLocations
                     (String.format("\"Primary Member [Host=%s, Id=%s - Key=%s, Value=%s]",
                             member.getHost(), member.getId(), entry.getKey(), entry.getValue()));
         }
-        */
+        
         /*
          * Java 1.8 style
          */
-        exampleRegion.entrySet()
-        	.forEach((Map.Entry<String, Employee> entry) -> {
-            DistributedMember member =
-                    PartitionRegionHelper.getPrimaryMemberForKey(exampleRegion, (String) entry.getKey());
-            System.out.println
-                    (String.format("\"Primary Member [Host=%s, Id=%s - Key=%s, Value=%s]",
-                            member.getHost(), member.getId(), entry.getKey(), entry.getValue()));
-        });
+//        exampleRegion.entrySet()
+//        	.forEach((Map.Entry<String, Employee> entry) -> {
+//            DistributedMember member =
+//                    PartitionRegionHelper.getPrimaryMemberForKey(exampleRegion, (String) entry.getKey());
+//            System.out.println
+//                    (String.format("\"Primary Member [Host=%s, Id=%s - Key=%s, Value=%s]",
+//                            member.getHost(), member.getId(), entry.getKey(), entry.getValue()));
+//        });
 
         cache.close();
 

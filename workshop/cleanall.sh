@@ -28,3 +28,6 @@ cd ../chapter13
 cd ../chapter14
 . clean.sh
 
+cd ../chapter15
+. clean.sh
+
