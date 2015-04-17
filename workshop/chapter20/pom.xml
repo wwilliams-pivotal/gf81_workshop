@@ -6,7 +6,7 @@
 
     <groupId>io.pivotal</groupId>
     <artifactId>20_CacheEvents</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1</version>
 	<packaging>jar</packaging>
 
 	<name>Chapter20</name>
@@ -35,12 +35,12 @@
             <version>0.0.1-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
-        <dependency>
+         <dependency>
             <groupId>io.pivotal</groupId>
             <artifactId>PeopleDomain</artifactId>
             <version>1</version>
             <scope>compile</scope>
-        </dependency>
+         </dependency>
         <dependency>
             <groupId>io.pivotal</groupId>
             <artifactId>GemServer</artifactId>
