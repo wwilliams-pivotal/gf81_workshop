@@ -19,6 +19,15 @@
             <key-constraint>java.lang.String</key-constraint>
             <value-constraint>io.pivotal.domain.Employee</value-constraint>
             <partition-attributes redundant-copies="1" total-num-buckets="11"/>
+           <cache-writer>
+                <class-name>io.pivotal.eventhandlers.SimpleWriter</class-name>
+               <parameter name="fromName">
+                    <string>WILLIAMS</string>
+                </parameter>
+                <parameter name="toName">
+                    <string>TAYLOR</string>
+                </parameter>
+            </cache-writer>
             <eviction-attributes>
                 <lru-heap-percentage action="overflow-to-disk"/>
             </eviction-attributes>
@@ -51,7 +60,7 @@
                     <string>Coventry-Cox,Raghakrishna,Yadav,Banrse,Saunders,Schnitzel,Plotkin,Mugnano</string>
                 </parameter>
             </cache-loader>
-            <cache-listener>
+             <cache-listener>
                 <class-name>io.pivotal.eventhandlers.SimpleListener</class-name>
             </cache-listener>
         </region-attributes>

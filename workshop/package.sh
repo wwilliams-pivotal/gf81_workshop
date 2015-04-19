@@ -35,6 +35,7 @@ cp config/gemfire.properties chapter3/config/
 cp config/cache.xml chapter3/config/
 cp scripts/clean.sh chapter3/
 cp scripts/stopall.sh chapter3/
+cp -r data chapter3/
 
 mkdir -p chapter4/lib
 mkdir -p chapter4/locator
@@ -45,6 +46,7 @@ cp config/gemfire.properties chapter4/config/
 cp chapter3/config/cache.xml chapter4/config/
 cp scripts/clean.sh chapter4/
 cp scripts/stopall.sh chapter4/
+cp -r data chapter4/
 
 mkdir -p chapter5/lib
 mkdir -p chapter5/locator
@@ -54,6 +56,7 @@ cp projects/PeopleDomain/target/PeopleDomain-1.jar chapter5/lib
 cp config/gemfire.properties chapter5/config/
 cp scripts/clean.sh chapter5/
 cp scripts/stopall.sh chapter5/
+cp -r data chapter5/
 
 mkdir -p chapter6/lib
 mkdir -p chapter6/locator
@@ -66,6 +69,7 @@ cp config/query-client.xml chapter6/config/
 cp chapter4/endstate/config/cache.xml chapter6/config/cache.xml
 cp scripts/clean.sh chapter6/
 cp scripts/stopall.sh chapter6/
+cp -r data chapter6/
 
 mkdir -p chapter7/lib
 mkdir -p chapter7/locator
@@ -75,6 +79,7 @@ cp config/gemfire.properties chapter7/config/
 cp chapter4/endstate/config/cache.xml chapter7/config/cache.xml
 cp scripts/clean.sh chapter7/
 cp scripts/stopall.sh chapter7/
+cp -r data chapter7/
 
 mkdir -p chapter8/lib
 mkdir -p chapter8/locator
@@ -88,6 +93,7 @@ cp projects/ClientApp/target/ClientApp-1.jar chapter8/lib
 cp projects/Domain/target/Domain-1.jar chapter8/lib/
 cp scripts/clean.sh chapter8/
 cp scripts/stopall.sh chapter8/
+cp -r data chapter8/
 
 mkdir -p chapter12/lib
 mkdir -p chapter12/locator
@@ -100,6 +106,7 @@ cp projects/ClientApp/target/ClientApp-1.jar chapter12/lib
 cp projects/GemServer/target/GemServer-1.jar chapter12/lib/
 cp scripts/clean.sh chapter12/
 cp scripts/stopall.sh chapter12/
+cp -r data chapter12/
 
 mkdir -p chapter13/lib
 mkdir -p chapter13/locator
@@ -110,6 +117,7 @@ cp config/datalocations-cache-no-storage.xml chapter13/config/
 cp projects/ClientApp/target/ClientApp-1.jar chapter13/lib
 cp scripts/clean.sh chapter13/
 cp scripts/stopall.sh chapter13/
+cp -r data chapter13/
 
 mkdir -p chapter14/lib
 mkdir -p chapter14/locator
@@ -121,6 +129,7 @@ cp projects/ClientApp/target/ClientApp-1.jar chapter14/lib
 rm -rf chapter14/server3
 cp scripts/clean.sh chapter14/
 cp scripts/stopall.sh chapter14/
+cp -r data chapter14/
 
 mkdir -p chapter15/lib
 mkdir -p chapter15/locator
@@ -130,6 +139,7 @@ cp config/gemfire.properties chapter15/config/
 cp config/cache-persistence.xml chapter15/config/
 cp scripts/clean.sh chapter15/
 cp scripts/stopall.sh chapter15/
+cp -r data chapter15/
 
 mkdir -p chapter19/DataCenter1/lib
 mkdir -p chapter19/DataCenter1/locator1
@@ -139,8 +149,8 @@ mkdir -p chapter19/DataCenter2/lib
 mkdir -p chapter19/DataCenter2/locator2
 mkdir -p chapter19/DataCenter2/server3
 mkdir -p chapter19/DataCenter2/server4
-cp scripts/stopall.sh chapter19/DataCenter1/
-cp scripts/stopall.sh chapter19/DataCenter2/
+cp -r data chapter19/DataCenter1
+cp -r data chapter19/DataCenter2
 
 
 mkdir -p chapter20/lib
@@ -151,5 +161,6 @@ cp config/gemfire.properties chapter20/config/
 cp config/query-client.xml chapter20/config/
 cp scripts/clean.sh chapter20/
 cp scripts/stopall.sh chapter20/
+cp -r data chapter20/
 
 

@@ -4,11 +4,11 @@ gfsh <<!
 
 connect
 
-stop server --name=server2
+stop server --name=server4
 
 shutdown
 Y
-stop locator --name=locator1
+stop locator --name=locator2
 
 exit;
 !

@@ -3,8 +3,6 @@
 LOCATOR_PORT=10334
 SERVER2_PORT=40405
 PROJECT_JARS=../../projects/Domain/target/Domain-1.jar:../../projects/GemFireFunction/target/GemServer-1.jar:../../projects/PeopleDomain/target/PeopleDomain-1.jar
-LOCAL_IP=
-IP=$(ifconfig | awk '/inet /{print substr($2,1)}' | tail -n1)
 
 echo IP=$IP
 

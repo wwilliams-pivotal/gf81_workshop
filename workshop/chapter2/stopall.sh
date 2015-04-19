@@ -6,9 +6,8 @@ connect
 
 stop server --name=server2
 
-shutdown
+shutdown --include-locators=true
 Y
-stop locator --name=locator1
 
 exit;
 !
