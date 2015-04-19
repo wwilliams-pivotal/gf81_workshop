@@ -24,7 +24,7 @@ public class ExecuteSizeFunction
         cache = ccf.create();
     }
 
-    public void run(String regionName)
+	public void run(String regionName)
     {
         Execution execution = FunctionService.onServer(this.cache).withArgs("/" + regionName);
 
@@ -32,7 +32,7 @@ public class ExecuteSizeFunction
 
         logger.log (Level.INFO,
                 String.format("Region %s contains %s entries",
-                        "/" + regionName, ((List) collector.getResult()).get(0)));
+                        "/" + regionName, ((List<?>) collector.getResult()).get(0)));
     }
 
     public static void main(String[] args)

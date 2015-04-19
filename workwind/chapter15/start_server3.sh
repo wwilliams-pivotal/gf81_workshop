@@ -1,0 +1,1 @@
+start server --name=server3 --locators=localhost[10334] --dir=server3 --J=-Xms512m --J=-Xmx512m --classpath=$GEMFIRE/server-dependencies.jar:../../projects/Domain/target/Domain-1.jar --cache-xml-file=config/cache.xml --properties-file=config/gemfire.properties --server-port=40406

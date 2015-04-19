@@ -31,12 +31,13 @@ public class Person
     public void setName(String name) {
         this.name = name;
     }
+    
+    public void replaceLastName(String lastName) {
+    	name = name.substring(0, name.indexOf(" ")) + lastName;
+    }
 
     @Override
     public String toString() {
-        return "io.pivotal.domain.Person{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                '}';
+        return "id=" + id + ", name='" + name;
     }
 }

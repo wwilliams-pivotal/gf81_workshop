@@ -1,6 +1,6 @@
 put --key=7369 --value=('empno':7369,'name':'SMITH','job':'CLERK','deptno':20) --value-class=io.pivotal.domain.Employee --region=employees;
 put --key=7370 --value=('empno':7370,'name':'APPLES','job':'MANAGER','deptno':10) --value-class=io.pivotal.domain.Employee --region=employees;
-put --key=7371 --value=('empno':7371,'name':'APICELLA','job':'SALESMAN','deptno':10) --value-class=io.pivotal.domain.Employee --region=employees;
+put --key=7371 --value=('empno':7371,'name':'WILLIAMS','job':'SALESMAN','deptno':10) --value-class=io.pivotal.domain.Employee --region=employees;
 put --key=7372 --value=('empno':7372,'name':'LUCIA','job':'PRESIDENT','deptno':30) --value-class=io.pivotal.domain.Employee --region=employees;
 put --key=7373 --value=('empno':7373,'name':'SIENA','job':'CLERK','deptno':40) --value-class=io.pivotal.domain.Employee --region=employees;
 put --key=7374 --value=('empno':7374,'name':'LUCAS','job':'SALESMAN','deptno':10) --value-class=io.pivotal.domain.Employee --region=employees;

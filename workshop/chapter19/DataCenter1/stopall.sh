@@ -1,2 +1,15 @@
-. ../../setenvironment.sh
-gfsh -e "connect --locator=$HOSTNAME[10334]" -e "stop server --name=server2" -e "shutdown --include-locators=true --time-out=60" -e "exit"
+# bring down servers in descending order as a discipline for advanced restarting
+
+gfsh <<!
+
+connect
+
+stop server --name=server2
+
+shutdown
+Y
+stop locator --name=locator1
+
+exit;
+!
+
