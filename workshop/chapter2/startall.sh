@@ -2,9 +2,7 @@
 
 LOCATOR_PORT=10334
 SERVER2_PORT=40405
-#PROJECT_JARS=../../projects/Domain/target/Domain-1.jar
-PROJECT_JARS=
-HOSTNAME=192.168.1.134
+PROJECT_JARS=../../projects/Domain/target/Domain-1.jar
 
 . ../setenvironment.sh
 
