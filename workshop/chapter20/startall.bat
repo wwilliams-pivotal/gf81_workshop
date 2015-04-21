@@ -1,6 +1,6 @@
 set LOCATOR_PORT=10334
 set SERVER2_PORT=40405
-set PROJECT_JARS=..\..\projects\Domain\target\Domain-1.jar
+set PROJECT_JARS=..\..\projects\Domain\target\Domain-1.jar:..\..\projects\GemServer-1\target\GemServer-1.jar
 
 call ..\setenvironment.bat
 

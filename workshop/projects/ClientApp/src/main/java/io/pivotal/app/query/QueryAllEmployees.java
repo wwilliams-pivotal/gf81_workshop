@@ -34,12 +34,13 @@ public class QueryAllEmployees
         Map<String, Employee> countriesMap = employees.getAll(keysOnServer);
         Set<Map.Entry<String, Employee>> entries = countriesMap.entrySet();
 
-        for (Map.Entry<String,Employee> entry: entries)
+       System.out.println ("*************************************************************");
+       for (Map.Entry<String,Employee> entry: entries)
         {
             System.out.println(
                     String.format("Key %s, Value %s", entry.getKey(), entry.getValue()));
         }
-
+       System.out.println ("*************************************************************");
     }
 
     /**

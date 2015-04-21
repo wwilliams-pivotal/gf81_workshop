@@ -39,12 +39,13 @@ public class QueryEmployees
 
         Iterator<?> iter = collection.iterator();
 
-        while (iter.hasNext())
+        System.out.println ("*************************************************************");
+       while (iter.hasNext())
         {
             Employee emp = (Employee) iter.next();
             System.out.println(emp.toString());
         }
-
+       System.out.println ("*************************************************************");
     }
 
     /**

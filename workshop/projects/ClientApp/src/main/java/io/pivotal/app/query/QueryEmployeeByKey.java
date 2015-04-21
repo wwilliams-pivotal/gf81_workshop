@@ -28,8 +28,9 @@ public class QueryEmployeeByKey
         String empKey = "7370";
         Employee emp = employees.get(empKey);
 
+        logger.log (Level.INFO, "*************************************************************");
         logger.log (Level.INFO, emp.toString());
-
+        logger.log (Level.INFO, "*************************************************************");
     }
 
     /**

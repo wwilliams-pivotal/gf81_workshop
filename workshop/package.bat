@@ -12,9 +12,6 @@ cd ../../../
 cd GemServer/target/classes
 jar cvf ../GemServer-1.jar io/*
 cd ../../../
-cd GemFireFunction/target/classes
-jar cvf ../GemServer-1.jar io/*
-cd ../../../
 cd ..
 
 

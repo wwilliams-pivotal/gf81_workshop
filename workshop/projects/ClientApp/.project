@@ -3,7 +3,7 @@
 	<name>GemFire8Workshop</name>
 	<comment></comment>
 	<projects>
-		<project>GemFireFunctions</project>
+		<project>ClientApp</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

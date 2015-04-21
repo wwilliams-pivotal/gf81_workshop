@@ -34,9 +34,11 @@ public class VerifyDataLocations
         for (Map.Entry<String, Employee> entry : exampleRegion.entrySet()) {
             DistributedMember member =
                     PartitionRegionHelper.getPrimaryMemberForKey(exampleRegion, (String) entry.getKey());
+            System.out.println ("*************************************************************");
             System.out.println
                     (String.format("\"Primary Member [Host=%s, Id=%s - Key=%s, Value=%s]",
                             member.getHost(), member.getId(), entry.getKey(), entry.getValue()));
+            System.out.println ("*************************************************************");
         }
         
         /*
