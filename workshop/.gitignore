@@ -5,3 +5,35 @@ server1/
 server2/
 server3/
 server4/
+*DS_Store
+.DS_Store
+.metadata
+*.class
+*.zip
+spring*.jar
+
+/target/
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Logs and databases #
+######################
+*.log
+
+# Maven stuff
+classes/*
+maven-archiver/
+surefire-reports/
+maven-archiver/
+surefire/
+maven-status/
+generated-sources/
+test-classes/
+

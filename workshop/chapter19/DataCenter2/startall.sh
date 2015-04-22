@@ -18,7 +18,7 @@ echo IP=$IP
 
 gfsh <<!
 
-start locator --name=locator2 --properties-file=config/locator.properties --bind-address=localhost --port=$LOCATOR_PORT ----J=-Xms256m --J=-Xmx256m --classpath=$GEMFIRE/locator-dependencies.jar
+start locator --name=locator2 --properties-file=config/locator.properties --bind-address=localhost --port=$LOCATOR_PORT --J=-Xms256m --J=-Xmx256m --classpath=$GEMFIRE/locator-dependencies.jar 
 
 start server --name=server3 --locators=localhost[$LOCATOR_PORT] --J=-Xms512m --J=-Xmx512m --classpath=$GEMFIRE/lib/server-dependencies.jar:$PROJECT_JARS --cache-xml-file=config/cache.xml --properties-file=config/gemfire.properties  --server-port=$SERVER1_PORT --J=-Dgemfire.start-dev-rest-api=true --J=-Dgemfire.http-service-bind-address=$IP --J=-Dgemfire.http-service-port=7075 --J=-Dgemfire.ALLOW_PERSISTENT_TRANSACTIONS=true
 
