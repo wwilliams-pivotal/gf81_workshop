@@ -29,6 +29,12 @@
 		  </dependency>
       <dependency>
 			<groupId>io.pivotal</groupId>
+			<artifactId>Domain</artifactId>
+			<version>1</version>
+			<scope>compile</scope>
+		</dependency>
+      <dependency>
+			<groupId>io.pivotal</groupId>
 			<artifactId>PeopleDomain</artifactId>
 			<version>1</version>
 			<scope>compile</scope>

@@ -54,10 +54,10 @@
                     <string>jdbc:postgresql://172.16.6.30:5432/gpadmin</string>
                 </parameter>
                 <parameter name="firstNames">
-                    <string>Tim,Prasad,Aditi,Amey,David,Joshua,John,Louie</string>
+                    <string>John,Zac,Aditi,Scott,Peter,Juan,Matt,Ben,Mukund,Jay</string>
                 </parameter>
                 <parameter name="lastNames">
-                    <string>Coventry-Cox,Raghakrishna,Yadav,Banrse,Saunders,Schnitzel,Plotkin,Mugnano</string>
+                    <string>Funk,Yadav,Hansen,Winn,Fasbinder,Schalmo,Bardhan,Ferrio,Berdine,Barnett,Srinivasan,Pollit</string>
                 </parameter>
             </cache-loader>
              <cache-listener>

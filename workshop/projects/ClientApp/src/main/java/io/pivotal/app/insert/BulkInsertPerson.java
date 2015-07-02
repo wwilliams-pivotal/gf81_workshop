@@ -99,6 +99,10 @@ public class BulkInsertPerson
         {
         	Person person = generatePerson(key);
             peopleRegion.put(String.valueOf(key), person);
+            
+            if (i % 50 == 0) {
+            	System.out.println("Inserted " + i + " records so far");
+            }
             try {
 				Thread.sleep(pause_per_insert * 1000);
 			} catch (InterruptedException e) {

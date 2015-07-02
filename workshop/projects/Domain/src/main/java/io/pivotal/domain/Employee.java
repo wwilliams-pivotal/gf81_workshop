@@ -59,6 +59,11 @@ public class Employee implements Serializable
 		this.deptno = deptno;
 	}
 
+	   
+    public void replaceLastName(String lastName) {
+    	name = name.substring(0, name.indexOf(" ")) + lastName;
+    }
+
 	@Override
 	public String toString() {
 		return "Employee [empno=" + empno + ", name=" + name + ", job=" + job

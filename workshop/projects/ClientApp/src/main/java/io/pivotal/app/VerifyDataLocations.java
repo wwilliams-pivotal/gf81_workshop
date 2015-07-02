@@ -18,7 +18,7 @@ public class VerifyDataLocations
     {
         CacheFactory cf = new CacheFactory();
         cf.set("cache-xml-file", "config/datalocations-cache-no-storage.xml");
-        cf.set("locators", "localhost[10334]");
+        cf.set("locators", "gemhost[10334]");
         cache = cf.create();
     }
 

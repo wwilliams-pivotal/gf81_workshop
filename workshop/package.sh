@@ -42,6 +42,7 @@ mkdir -p chapter6/server1
 mkdir -p chapter6/server2
 mkdir -p chapter6/lib
 cp projects/PeopleDomain/target/PeopleDomain-1.jar chapter6/lib
+cp projects/Domain/target/Domain-1.jar chapter6/lib
 cp projects/ClientApp/target/ClientApp-1.jar chapter6/lib
 cp config/gemfire.properties chapter6/config/
 cp config/query-client.xml chapter6/config/
@@ -97,7 +98,7 @@ cp config/gemfire.properties chapter13/config/
 cp config/datalocations-cache-no-storage.xml chapter13/config/
 mkdir -p chapter13/lib
 cp projects/ClientApp/target/ClientApp-1.jar chapter13/lib
-cp projects/Domain/target/Domain-1.jar chapter8/lib/
+cp projects/Domain/target/Domain-1.jar chapter13/lib/
 cp scripts/clean.sh chapter13/
 cp scripts/stopall.sh chapter13/
 cp -r data chapter13/

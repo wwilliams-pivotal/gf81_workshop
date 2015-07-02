@@ -2,7 +2,7 @@
 
 gfsh <<!
 
-connect
+connect --locator=gemhost[10335]
 
 stop server --name=server4
 

@@ -1,5 +1,5 @@
 gfsh <<!
-connect
+connect --locator=gemhost[10334]
 list members;
 list regions;
 query --query="select * from /departments";

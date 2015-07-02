@@ -30,7 +30,7 @@ public class ExecuteSizeFunction
 
         ResultCollector<?, ?> collector = execution.execute(SizeFunction.ID);
 
-        logger.log (Level.INFO,
+        System.out.println (
                 String.format("Region %s contains %s entries",
                         "/" + regionName, ((List<?>) collector.getResult()).get(0)));
     }

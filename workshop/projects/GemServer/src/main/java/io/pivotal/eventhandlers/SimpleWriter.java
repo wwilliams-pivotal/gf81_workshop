@@ -1,6 +1,6 @@
 package io.pivotal.eventhandlers;
 
-import io.pivotal.domain.Person;
+import io.pivotal.domain.Employee;
 
 import java.util.Iterator;
 import java.util.Properties;
@@ -28,10 +28,10 @@ public class SimpleWriter<K,V> extends CacheWriterAdapter<K,V> implements Declar
 		  * update the name in fromName to toName when inserting a new record
 		  */
 		 EntryEventImpl eventImpl = (EntryEventImpl) event;
-		 Object cachedPerson = event.getNewValue();
+		 Object cachedEmployee = event.getNewValue();
 		 
-		 if (cachedPerson instanceof PdxInstance) {
-			 PdxInstance pdxPerson = (PdxInstance) cachedPerson;			 
+		 if (cachedEmployee instanceof PdxInstance) {
+			 PdxInstance pdxPerson = (PdxInstance) cachedEmployee;			 
 			 String name = (String) pdxPerson.getField("name");
 			 
 			 if (name != null && name.endsWith(fromName)) {
@@ -43,10 +43,10 @@ public class SimpleWriter<K,V> extends CacheWriterAdapter<K,V> implements Declar
 				 eventImpl.setNewValue((PdxInstance) writablePdxPerson);
 			 }
 		 }
-		 else if (cachedPerson instanceof Person) {
-			 Person person = (Person) event.getNewValue();
-			 if (person.getName().endsWith(fromName)) {
-				 person.replaceLastName(toName);
+		 else if (cachedEmployee instanceof Employee) {
+			 Employee employee = (Employee) event.getNewValue();
+			 if (employee.getName().endsWith(fromName)) {
+				 employee.replaceLastName(toName);
 			 }
 		 }
 		 eventImpl.makeSerializedNewValue();

@@ -1,6 +1,6 @@
 <!DOCTYPE client-cache PUBLIC 
 "-//GemStone Systems, Inc.//GemFire Declarative Caching 7//EN" 
-"http://www.gemstone.com/dtd/cache7_0.dtd">
+"http://www.gemstone.com/dtd/cache8_0.dtd">
 <client-cache>	
   
     <pdx>

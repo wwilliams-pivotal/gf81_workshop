@@ -4,7 +4,7 @@
 <client-cache>
 
     <pool name="clientPool" max-connections="10">
-        <locator host="localhost" port="10334"/>
+        <locator host="gemhost" port="10334"/>
     </pool>
 
     <pdx>
